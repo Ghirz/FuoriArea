@@ -1,0 +1,611 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Oswald, sans-serif;
+}
+
+
+.body {
+    max-width: 100%;
+}
+
+.banner {
+    max-width: 100%;
+    height: 150vh;
+    display: block;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://images.adsttc.com/media/images/5c2c/c339/08a5/e5e5/7e00/02b2/large_jpg/noname.jpg?1546437346);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.nav {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  font-family: Oswald,sans-serif;
+  cursor: pointer;
+  border-bottom: 2px solid white;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.logo {
+  width: 120px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    position: relative;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}  
+
+.nav ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.nav ul li:hover::after {
+    width: 100%;
+}
+
+.indietro {
+    height: 10px;
+    width: 100px;
+    font-family: Oswald, sans-serif;
+    padding: 35px 0;   
+    margin-left: 30px;
+    font-size: 1.5em;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+}
+
+.indietro a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.titolo {
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    padding: 30px 20px;
+}
+
+
+.card1 {
+    position: absolute;
+    top: 60%;
+    margin-left: 20%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 200px;
+    background: #262626;
+    overflow: hidden;
+}
+.card1 .imgBx1,
+.card1 .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.card1 .imgBx1 {
+    top: 0;
+    left: 0;
+}
+.card1:hover .imgBx1 {
+    top: 0;
+    left: -100%;
+}
+.card1 .imgBx1 img {
+    width: 100%;
+}
+.card1 .details {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 40px 30px;
+}
+.card1:hover .details {
+    top: 0;
+    left: 0%;
+}
+.card1 .details h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.card1 .details p {
+    margin: 20px 0 0;
+    color: #fff;
+}
+
+.card2 {
+    position: absolute;
+    top: 60%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 200px;
+    background: #262626;
+    overflow: hidden;
+}
+.card2 .imgBx2,
+.card2 .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+
+}
+.card2 .imgBx2 {
+    top: 0;
+    left: 0;
+}
+.card2:hover .imgBx2 {
+    top: 0;
+    left: -100%;
+}
+.card2 .imgBx2 img {
+    width: 100%;
+}
+.card2 .details {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 40px 30px;
+}
+.card2:hover .details {
+    top: 0;
+    left: 0%;
+}
+.card2 .details h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.card2 .details p {
+    margin: 20px 0 0;
+    color: #fff;
+}
+
+.card3 {
+    position: absolute;
+    top: 60%;
+    margin-left: 80%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 200px;
+    background: #262626;
+    overflow: hidden;
+
+}
+.card3 .imgBx3,
+.card3 .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+
+}
+.card3 .imgBx3 {
+    top: 0;
+    left: 0;
+}
+.card3:hover .imgBx3 {
+    top: 0;
+    left: -100%;
+}
+.card3 .imgBx3 img {
+    width: 100%;
+    height: 100%;
+}
+.card3 .details {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 40px 30px;
+}
+.card3:hover .details {
+    top: 0;
+    left: 0%;
+}
+.card3 .details h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.card3 .details p {
+    margin: 20px 0 0;
+    color: #fff;
+}
+
+.titoloo {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    padding: 30px 20px;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 80rem;
+    margin-bottom: 50px;
+}
+  
+.cols{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            
+}
+  
+.col{
+    width: calc(25% - 2rem);
+    margin: 1rem;
+    cursor: pointer;
+}
+  
+.container{
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+      -webkit-perspective: 1000px;
+              perspective: 1000px;
+}
+  
+  .front,
+  .back{
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+    border-radius: 10px;
+      background-position: center;
+      -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+      text-align: center;
+      min-height: 280px;
+      height: auto;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 1.5rem;
+  }
+  
+  .back{
+    background: #cedce7;
+    background: -webkit-linear-gradient(45deg,  #ffffff 0%,#929394 100%);
+    background: -o-linear-gradient(45deg,  #ffffff 0%,#929394 100%);
+    background: linear-gradient(45deg,  #ffffff 0%,#929394 100%);
+  }
+  
+  .front:after{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      content: '';
+      display: block;
+      opacity: .6;
+      background-color: #000;
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+      border-radius: 10px;
+  }
+  .container:hover .front,
+  .container:hover .back{
+      -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  }
+  
+  .back{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+  }
+  
+  .inner{
+      -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+              transform: translateY(-50%) translateZ(60px) scale(0.94);
+      top: 50%;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      padding: 2rem;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      outline: 1px solid transparent;
+      -webkit-perspective: inherit;
+              perspective: inherit;
+      z-index: 2;
+  }
+  
+  .container .back{
+      -webkit-transform: rotateY(180deg);
+              transform: rotateY(180deg);
+      -webkit-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+  }
+  
+  .container .front{
+      -webkit-transform: rotateY(0deg);
+              transform: rotateY(0deg);
+      -webkit-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+  }
+  
+  .container:hover .back{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+  }
+  
+  .container:hover .front{
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+  }
+  
+  .front p{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    max-height: 250px;
+  }
+  
+  .front p:after{
+    content: '';
+    width: 4rem;
+    height: 2px;
+    position: absolute;
+    background: #C6D4DF;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -.75rem;
+  }
+  
+  .front .inner span{
+    color: rgba(255,255,255,0.7);
+    font-family: Oswald,sans-serif;
+    font-weight: 300;
+  }
+  
+ 
+.inner h2 {
+    font-size: 0.7em;
+    color: rgba(0,0,0,0.75);
+    max-height: 250px;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://images.adsttc.com/media/images/5c2c/c339/08a5/e5e5/7e00/02b2/large_jpg/noname.jpg?1546437346);
+    background-size: cover;
+    background-position:center;
+}
+
+.titolooo {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    padding: 50px 20px;
+}
+
+.premier {    
+    background-image: url(https://www.passionepremier.com/wp-content/uploads/2020/05/logo-premier-league.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
+    transition: transform .7s ease;
+    display: block;
+    transform: scale(1);
+    width: 180px;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+.premier:hover { 
+   transform: scale(1.5);
+}
+
+.premier p {
+    font-size: 1.5em;
+    color: #fff;
+    position: absolute;
+    margin-top: 90px;
+}
+
+.serie {    
+    background-image: url(https://content.fantacalcio.it/web/img/medium/LOGO-LEGA-SERIE-A-NO-GETTY-017d996e-0181-434a-9644-6c095749a9df.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
+    transition: transform .7s ease;
+    display: block;
+    transform: scale(1);
+    width: 180px;
+    margin-left: 60%;
+    margin-top: -20px;
+}
+
+.serie:hover { 
+   transform: scale(1.5);
+}
+
+.serie p {
+    font-size: 1.5em;
+    color: #fff;
+    position: absolute;
+    margin-top: 90px;
+}
+
+.premier p:hover {
+    cursor: pointer;
+}
+
+.serie p:hover {
+    cursor: pointer;
+}
+
+.liga {
+    background-image: url(https://www.battleroyale.it/br_ippi/2020/09/laliga-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
+    transition: transform .7s ease;
+    display: block;
+    transform: scale(1);
+    width: 180px;
+    margin-left: 20%;
+}
+
+.liga:hover { 
+    transform: scale(1.5);
+ }
+ 
+ .liga p {
+     font-size: 1.5em;
+     color: #fff;
+     position: absolute;
+     margin-top: 90px;
+ }
+ 
+ .liga p:hover {
+     cursor: pointer;
+ }
+
+ .bundes {
+    background-image: url(https://img.datasport.it/media/calcio/logo-bundesliga-calcio-2021.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
+    transition: transform .7s ease;
+    display: block;
+    transform: scale(1);
+    width: 180px;
+    margin-left: 75%;
+}
+
+.bundes:hover { 
+    transform: scale(1.5);
+ }
+ 
+ .bundes p {
+     font-size: 1.5em;
+     color: #fff;
+     position: absolute;
+     margin-top: 90px;
+ }
+ 
+ .bundes p:hover {
+     cursor: pointer;
+ }
+
+ .ligue {
+    background-image: url(https://www.lanotiziasportiva.com/wp-content/uploads/2018/01/pronostici-ligue-1-19-20-21-gennaio-2018-consigli-scommesse-22-giornata.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
+    transition: transform .7s ease;
+    display: block;
+    transform: scale(1);
+    width: 180px;
+    margin-left: 45%;
+    margin-top: -50px;
+}
+
+.ligue:hover { 
+    transform: scale(1.5);
+ }
+ 
+ .ligue p {
+     font-size: 1.5em;
+     color: #fff;
+     position: absolute;
+     margin-top: 90px;
+ }
+ 
+ .ligue p:hover {
+     cursor: pointer;
+ }
+
+.titoloooo {
+    text-align: center;
+    color: #fff;
+    font-size: 4em;
+    margin-top: -70px;
+}
+
+.bannero {
+    max-width: 100%;
+    height: 230vh;
+    display: block;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://images.adsttc.com/media/images/5c2c/c339/08a5/e5e5/7e00/02b2/large_jpg/noname.jpg?1546437346);
+    background-size: cover;
+    background-position: center;
+}
+
+.formazione {
+    height: 700px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

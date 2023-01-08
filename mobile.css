@@ -1,0 +1,107 @@
+@media screen and (max-width: 500px) {
+    .banner {
+        height: 170vh;
+    }
+    .card1 {
+        position: absolute;
+        top: 60%;
+        margin-left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .card2 {
+        position: absolute;
+        top: 100%;
+        margin-left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .card3 {
+        position: absolute;
+        top: 140%;
+        margin-left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .nav {
+        min-height: 100px;
+    }
+    .nav ul li {
+        margin: 5px 8px;
+    }
+    .titolo {
+        padding: 0px 0 20px;
+    }
+    .wrapper{
+        width: 90%;
+        margin: 0 auto;
+        max-width: 20rem;
+        margin-bottom: 50px;
+    } 
+    .col{
+        width: calc(100% - 2rem);
+        margin: 1rem;
+        cursor: pointer;
+    }
+    .titoloooo {
+        font-size: 3em;
+        margin-top: 10%;
+    }
+    .serie {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+    .liga {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+    .bundes {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+    .ligue {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .banner {
+        height: 170vh;
+    }
+    .card1 {
+        position: absolute;
+        top: 60%;
+        margin-left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .card2 {
+        position: absolute;
+        top: 100%;
+        margin-left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .card3 {
+        position: absolute;
+        top: 140%;
+        margin-left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .titoloooo {
+        font-size: 3em;
+        margin-top: 10%;
+    }
+    .serie {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+    .liga {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+    .bundes {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+    .ligue {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+}
